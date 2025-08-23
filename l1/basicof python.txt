@@ -1,0 +1,150 @@
+"""
+Basics of Python
+=================
+This file covers all the fundamental concepts of Python programming with examples.
+"""
+
+# ----------------------------
+# 1. Hello World & Comments
+# ----------------------------
+print("Hello, World!")   # Single-line comment
+"""
+This is a
+multi-line comment
+or docstring.
+"""
+
+# ----------------------------
+# 2. Variables & Data Types
+# ----------------------------
+name = "Saurabh"       # String
+age = 20               # Integer
+height = 5.9           # Float
+is_student = True      # Boolean
+
+print(name, age, height, is_student)
+
+# ----------------------------
+# 3. Data Structures
+# ----------------------------
+# List
+fruits = ["apple", "banana", "cherry"]
+print(fruits[0])        # Access first element
+
+# Tuple (immutable)
+coordinates = (10, 20)
+print(coordinates)
+
+# Set (unique values)
+unique_nums = {1, 2, 2, 3}
+print(unique_nums)
+
+# Dictionary (key-value pairs)
+student = {"name": "Saurabh", "age": 20}
+print(student["name"])
+
+# ----------------------------
+# 4. Operators
+# ----------------------------
+x, y = 10, 3
+print(x + y, x - y, x * y, x / y, x % y, x ** y)
+
+# ----------------------------
+# 5. Conditional Statements
+# ----------------------------
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+
+# ----------------------------
+# 6. Loops
+# ----------------------------
+# For loop
+for fruit in fruits:
+    print(fruit)
+
+# While loop
+count = 0
+while count < 3:
+    print("Count:", count)
+    count += 1
+
+# ----------------------------
+# 7. Functions
+# ----------------------------
+def greet(person):
+    return f"Hello, {person}!"
+
+print(greet("Saurabh"))
+
+# ----------------------------
+# 8. Exception Handling
+# ----------------------------
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+
+# ----------------------------
+# 9. File Handling
+# ----------------------------
+with open("sample.txt", "w") as file:
+    file.write("This is a sample file.")
+
+with open("sample.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+# ----------------------------
+# 10. Classes & Objects
+# ----------------------------
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def introduce(self):
+        return f"Hi, I'm {self.name}, {self.age} years old."
+
+p1 = Person("Saurabh", 20)
+print(p1.introduce())
+
+# ----------------------------
+# 11. Modules & Imports
+# ----------------------------
+import math
+print(math.sqrt(16))
+
+# ----------------------------
+# 12. List Comprehension
+# ----------------------------
+squares = [x**2 for x in range(5)]
+print(squares)
+
+# ----------------------------
+# 13. Lambda Functions
+# ----------------------------
+multiply = lambda a, b: a * b
+print(multiply(4, 5))
+
+# ----------------------------
+# 14. Useful Built-in Functions
+# ----------------------------
+print(len(fruits))
+print(type(name))
+print(sorted([3, 1, 2]))
+
+# ----------------------------
+# 15. Advanced: Generators
+# ----------------------------
+def generate_numbers(n):
+    for i in range(n):
+        yield i
+
+for num in generate_numbers(5):
+    print(num)
+
+# ----------------------------
+# End of Basics of Python
+# ----------------------------
