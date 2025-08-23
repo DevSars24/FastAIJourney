@@ -71,15 +71,25 @@ Deploy projects with GitHub Actions & Render
 ⏳ Planned
 
 
-Folder Structure
 FastAIJourney/
-├── python_basics/           # Python learning scripts
-├── fastapi_projects/        # FastAPI + ML projects
-│   ├── text_summarizer/     # AI text summarizer API
-│   ├── chatbot_api/         # Planned chatbot API
-├── devops/                  # CI/CD and deployment scripts
-├── docs/                    # Weekly learning logs
-└── resources.md             # Useful links and references
+├── python_basics/
+│   ├── basics.py
+│   ├── async_await.py
+├── fastapi_projects/
+│   ├── text_summarizer/
+│   │   ├── main.py
+│   │   ├── requirements.txt
+│   │   ├── README.md
+│   ├── chatbot_api/
+│   │   ├── main.py
+│   │   ├── requirements.txt
+│   │   ├── README.md
+├── devops/
+│   ├── github_actions.yml
+├── docs/
+│   ├── week1_learning.md
+│   ├── challenges.md
+├── resources.md
 
 Challenges & Learnings
 
