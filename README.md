@@ -19,6 +19,12 @@ Integrate ML models (e.g., text summarization, sentiment analysis) into web apps
 Build 2-3 portfolio projects to showcase for internships.
 Apply DevOps practices (CI/CD with GitHub Actions) to deploy projects.
 
+## 🌐 Connect with Me  
+
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SaurabhSin15850)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurabh-singh-rajput-25639a306/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DevSars24)
+
 ```bash
 Tech Stack
 
@@ -113,9 +119,5 @@ Hugging Face Transformers
 Corey Schafer: Python Tutorials
 TestDriven.io: FastAPI Guide
 
-## 🌐 Connect with Me  
 
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SaurabhSin15850)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurabh-singh-rajput-25639a306/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DevSars24)
 
