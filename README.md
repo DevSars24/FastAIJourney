@@ -1,9 +1,16 @@
 FastAIJourney
+
 🚀 Welcome to FastAIJourney – my quest to master FastAPI and Machine Learning to build AI-powered web applications! As a MERN stack developer, I'm diving into Python to create high-performance APIs and integrate cutting-edge AI models like Hugging Face. My goal? To stand out in the AI era, contribute to the tech community, and land a killer internship in 2025! 💻
+
+
 About Me
 I'm DevSars24, a passionate web developer with experience in MERN stack (check out my mern-notes-backend and BlogSphere-Hub) and basic DevOps knowledge. Now, I'm leveling up with FastAPI and ML to build scalable, AI-driven web apps. Inspired by resources like CampusX and FastAPI's official docs, this repo documents my learning journey and projects.
+
+
 Why This Journey?
 In the AI-driven tech world of 2025, combining web development with machine learning is the key to staying ahead. FastAPI's async power and Python's ML ecosystem (Hugging Face, Scikit-learn) make it the perfect tool to build next-gen APIs. This repo tracks my progress from Python basics to deploying AI-powered APIs, with a focus on practical projects that solve real-world problems.
+
+
 Goals
 
 Learn Python fundamentals and async programming.
@@ -106,7 +113,9 @@ Hugging Face Transformers
 Corey Schafer: Python Tutorials
 TestDriven.io: FastAPI Guide
 
-Connect with Me
-Follow my journey on X where I share updates, code snippets, and learnings! Got tips or want to collab on AI/web dev projects? DM me or comment on my posts! 🌟
+## 🌐 Connect with Me  
 
-"The future of web dev is AI-driven, and I'm coding my way to it!" – DevSars24
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SaurabhSin15850)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurabh-singh-rajput-25639a306/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DevSars24)
+
