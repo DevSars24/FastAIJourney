@@ -12,6 +12,7 @@ Integrate ML models (e.g., text summarization, sentiment analysis) into web apps
 Build 2-3 portfolio projects to showcase for internships.
 Apply DevOps practices (CI/CD with GitHub Actions) to deploy projects.
 
+```bash
 Tech Stack
 
 Backend: FastAPI, Python
@@ -70,7 +71,7 @@ Build React frontend for projects
 Deploy projects with GitHub Actions & Render
 ⏳ Planned
 
-
+```bash
 FastAIJourney/
 ├── python_basics/
 │   ├── basics.py
