@@ -1,0 +1,82 @@
+ Documentary Notes on FastAPI
+
+🌐 Modern High-Performance Framework for APIs
+✅ FastAPI is a modern web framework in Python for building high-performance APIs.
+
+⚡ Built on top of Starlette (for handling HTTP, routing, responses) + Pydantic (for validation).
+📦 Used widely for Machine Learning APIs and production-grade backend services.
+
+🧩 Core Components
+
+Request comes from Client → FastAPI → Starlette → Response back to Client
+Pydantic: ensures data is valid & structured (e.g., station_name: str must be string).
+
+Interactive Docs: Auto-generated Swagger UI & ReDoc.
+
+💡 Philosophy of FastAPI
+
+✨ The name itself says it all: FAST
+⚡ Fast to Run
+Powered by ASGI (Asynchronous Server Gateway Interface).
+
+Async + Await = Concurrency + Parallel Processing.
+Lower latency, higher throughput, scales better.
+
+🖊️ Fast to Code
+
+Automatic request validation (Pydantic).
+Auto-generated documentation (Swagger, ReDoc).
+Less boilerplate → developers write code quickly.
+
+🔬 Why FastAPI is Fast to Run?
+
+📌 Example: ML Model API
+Endpoint: /predict
+Input JSON → {"feature1": 5.2, "feature2": 3.1}
+API → calls Python function → ML Model .predict() → Returns Response → JSON Output → {"prediction": 8.3}
+
+⚙️ Execution flow:
+API Code
+Web Server (Uvicorn / Gunicorn)
+ASGI translates HTTP → Python function → Response.
+
+🌍 Deployment → AWS, GCP, Azure, Docker.
+
+🔗 WSGI vs ASGI
+🍵 Flask (WSGI)
+
+WSGI = Web Server Gateway Interface.
+Synchronous nature → one request at a time.
+Blocking I/O → slow when many clients connect.
+
+Framework: Flask + Werkzeug + Gunicorn (WSGI-based).
+
+⚠️ Disadvantage: High latency, cannot handle real-time tasks (e.g., WebSockets).
+⚡ FastAPI (ASGI)
+
+ASGI = Asynchronous Server Gateway Interface.
+Handles concurrent requests efficiently (Async I/O).
+Built on Starlette → async support.
+Uvicorn / Hypercorn = high-performance ASGI servers.
+Allows real-time, ML, DL, WebSocket, streaming.
+
+🎭 Analogy
+
+🍽️ Flask = Waiter → takes one customer order at a time, kitchen waits until order is served.
+⚡ FastAPI = Smart Restaurant System → multiple waiters, chefs, and async processing → handles 100s of customers simultaneously.
+
+🏆 Key Differences: Flask vs FastAPI
+
+Feature ⚖️	Flask (WSGI) 🐍	FastAPI (ASGI) ⚡
+Gateway Protocol	WSGI (Sync)->	ASGI (Async + Sync)
+Speed 🚀	Slower (I/O bound) ->	Faster, concurrent
+Validation ✔️	Manual (Marshmallow etc.) ->	Built-in with Pydantic
+Docs 📖	No Auto Docs ->	Auto Swagger & ReDoc
+Ecosystem 🌍	Mature, classic	Modern, ML/DL friendly
+Real-time Support 🔄	Limited	Native WebSockets, Streaming
+
+🧪 Why ML/DL People ❤️ FastAPI?
+✅ Easy to wrap ML models into APIs.
+✅ Works with NumPy, Pandas, PyTorch, TensorFlow.
+✅ Fast deployment on AWS, Docker, GCP.
+✅ Easy interactive testing with Swagger docs.
